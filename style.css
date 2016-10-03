@@ -1,0 +1,55 @@
+body, html {
+	background-color: #FFF;
+}
+
+.container {
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 23px;
+}
+
+.form {
+	width: 60%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#price {
+	width: 60%;
+	margin-top: 7px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title {
+	width: 60%;
+	margin-top: 7px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#quantity {
+	width: 60%;
+	margin-top: 7px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item {
+	width: 23%;
+	float: left;
+	margin: 5%;
+}
+
+.shipping {
+	text-align: left;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+.shipping h2{
+	text-align: center;
+}

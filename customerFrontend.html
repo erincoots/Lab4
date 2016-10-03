@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Web Store</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="formChecker.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="form">
+  	   <form name="store" action="customerBackend.php" onsubmit="return validateForm()" method="post">
+
+         Username/Email:<br /><input type="email" name="username"><br /><br />
+         Password:<br /><input type="password" name="password"><br />
+
+  	      <div class="item">
+  	         <img src="bracelet.jpg" height="150">
+  	          <div class="info">
+  	            <div class="price"><h2>$15</h2></div>
+  	            <div class="title">Bracelet</div>
+  	            <div class="quantity">Quantity: <input type="number" name="quantity1"></div>
+  	          </div>
+  	      </div>
+   	      <div class="item">
+            <img src="necklace.jpg" height="150">
+   	        <div class="info">
+   	          <div class="price"><h2>$20</h2></div>
+   	          <div class="title">Necklace</div>
+   	          <div class="quantity">Quantity: <input type="number" name="quantity2"></div>
+   	        </div>
+   	      </div>
+   	      <div class="item">
+  	         <img src="ring.jpg" height="150">
+   	         <div class="info">
+   	           <div class="price"><h2>$10</h2></div>
+   	           <div class="title">Ring</div>
+   	           <div class="quantity">Quantity: <input type="number" name="quantity3"></div>
+   	         </div>
+          </div>
+          <div class="shipping">
+    	       <h4>Shipping:</h4>
+     	       <input type="radio" name="shipping" value="7day">7 day(Free)<br>
+             <input type="radio" name="shipping" value="3day">3 day($5)<br>
+             <input type="radio" name="shipping" value="overNight">Over Night($50)
+          </div>
+
+          <input type="reset">
+          <input type="submit">
+
+  	     </form>
+      </div>
+  </div>
+
+</body>
+</html>
